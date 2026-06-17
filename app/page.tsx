@@ -6,7 +6,7 @@ import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-x-hidden overflow-y-auto-auto mx-auto sm:px-10 px-5 h-full w-screen">
+    <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-hidden sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}

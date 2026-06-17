@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/drei": "^10.7.7",
     "clsx": "^2.1.1",
     "motion": "^12.40.0",
     "next": "16.2.7",
@@ -16,7 +18,9 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-icons": "^5.6.0",
-    "tailwind-merge": "^3.6.0"
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.184.0",
+    "three-globe": "^2.45.2"
   },
   "overrides": {
     "motion": {
@@ -29,6 +33,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-lottie": "^1.2.10",
     "autoprefixer": "^10.5.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
