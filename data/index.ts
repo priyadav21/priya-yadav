@@ -98,34 +98,25 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Highly recommend Priya as a standout front-end developer. She took the lead on a Hector's chatbot development project with unmatched enthusiasm and skill, impressing us all. She has good technical skills and a positive attitude, making her a joy to work with. Her professionalism and ability to tackle challenges impressed us. Any team would be lucky to have Priya —she's not just talented; she's a true team player and a future star in tech.",
+    name: "Vipul Joshi",
+    title: " Founder @ Aura-AI | Ex CTO @ Hector (NDM Marketing)",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "I highly recommend Priya for her outstanding skills as a frontend developer. Her expertise in crafting responsive and visually appealing user interfaces greatly contributed to the success of projects. Diligent, collaborative, and always eager to tackle challenges, Priya would be a valuable asset to any team.",
+    name: "Shubham  Bhardwaj",
+    title: "Assistant Manager @ KPMG  | Ex Cloud Engineer @ Hector (NDM Marketing)",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:`Having worked with Priya in the same team for over a year, I'd like to highlight the below. Priya's proven expertise spans mainly UI development, low code solutions, and Java. She's very active in her work, consistently exceeds expectations and sets the bar high. She also has a strong sense of ownership towards her work . She's a quick learner and can adapt to any new tools and technologies and capable of tackling any challenge that comes in her way. She has been a great mentor to the less experienced and also an excellent teammate to her peers. Priya's skills and her positive nature make her a valuable asset to any team she joins and I'd give her my highest recommendation.`,
+    name: "Rahul Penumala",
+    title: "Software Developer @ Amdocs",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `Priya was my junior, worked in a same team. She is very much motivated towards work with good communication , and was a great team player. She was very particular to meet the deadlines. She had a strong hold on data structure and algorithms, a creative thinker and always comes up with better solution. 
+    Keep up the good work priya. `,
+    name: "Saumyadipta Sarkar",
+    title: "Lead Engineer @ Amex | Ex Software Developer Experienced @ Amdocs",
   },
 ];
 
