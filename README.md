@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Personal Portfolio Website
 
-## Getting Started
+A modern and interactive developer portfolio built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion** to showcase my projects, skills, experience, and achievements.
 
-First, run the development server:
+## 🌐 Live Demo
+
+[View Portfolio](https://priya-yadav.vercel.app/)
+
+---
+
+## ✨ Features
+
+* Responsive design for all screen sizes
+* Modern UI with smooth animations
+* Interactive project showcase
+* Professional experience timeline
+* Skills and technologies section
+* Client and colleague testimonials
+* Contact section with direct email integration
+* Optimized performance and SEO
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+### Animations & Effects
+
+* Framer Motion
+* Three.js
+* Aceternity UI
+
+### Deployment
+
+* Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── app/
+├── components/
+├── data/
+├── lib/
+├── public/
+└── utils/
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js (v18 or later)
+* npm / yarn / pnpm
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your browser and visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+Add screenshots or GIFs showcasing the portfolio experience here.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 About Me
 
-## Deploy on Vercel
+I'm a Frontend Engineer passionate about building scalable, performant, and visually engaging web applications. This portfolio serves as a central place to showcase my work, technical expertise, and professional journey.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Contact
+
+* Email: [priyadav218@gmail.com](mailto:priyadav218@gmail.com)
+* LinkedIn: https://linkedin.com/in/priyadav21
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
