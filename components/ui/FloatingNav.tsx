@@ -58,18 +58,19 @@ export const FloatingNav = ({
         )}
       >
         <div className="flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/80 px-2 py-1.5 shadow-lg shadow-black/10 backdrop-blur-md dark:border-white/10 dark:bg-black/50">
-          {/* Nav items container */}
           <div className="flex items-center gap-1">
             {navItems.map((navItem, idx: number) => (
               <a
                 key={`link-${idx}`}
                 href={navItem.link}
                 className={cn(
-                  "relative flex items-center gap-1 rounded-full px-4 py-2 text-sm font-medium text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-white/10 dark:hover:text-white"
+                  "relative flex items-center rounded-full px-2 md:px-4 py-2 text-sm font-medium text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-white/10 dark:hover:text-white cursor-pointer"
                 )}
               >
-                <span className="block sm:hidden">{navItem.icon}</span>
-                <span className="hidden sm:block">{navItem.name}</span>
+                {/* add icons for sm device later with toolttip */}
+                {/* <span className="block sm:hidden">{navItem.icon}</span>
+                <span className="hidden sm:block">{navItem.name}</span> */}
+                <span className="text-sm cursor-pointer!">{navItem.name}</span>
               </a>
             ))}
           </div>

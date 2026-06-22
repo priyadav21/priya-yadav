@@ -38,13 +38,13 @@ const Hero = () => {
             enterprise platforms with React, TypeScript, and a deep focus on
             usability.
           </p>
-          <a href="/about">
+          {/* <a href="/about">
             <MagicButton
               title="Show My Work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

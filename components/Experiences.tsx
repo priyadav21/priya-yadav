@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div id="experiences" className="py-20 w-full">
       <h1 className="font-bold text-4xl md:text-5xl text-center">
-        My <span className="text-purple-300">work experience</span>
+        My Work <span className="text-purple-300"> Experiences</span>
       </h1>
 
       <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 pt-10">

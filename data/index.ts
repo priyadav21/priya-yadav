@@ -1,6 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  // { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Experiences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
@@ -79,22 +79,6 @@ export const projects = [
     iconLists: ["/re.svg","/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://github.com/priyadav21",
   },
-  // {
-  //   id: 2,
-  //   title: "Sample Project 2",
-  //   des: "Description of Project 2",
-  //   img: "/exp4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg"],
-  //   link: "https://github.com/priyadav21",
-  // },
-  // {
-  //   id: 3,
-  //   title: "Sample Project 3",
-  //   des: "Description of Project 3",
-  //   img: "/exp4.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
-  //   link: "https://github.com/priyadav21",
-  // },
 ];
 
 export const testimonials = [
@@ -176,13 +160,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/priyadav21"
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/priyadav21/"
   },
 ];
