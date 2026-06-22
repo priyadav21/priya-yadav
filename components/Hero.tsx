@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="py-15 lg:pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-top-20 md:-left-32 h-screen animate-spotlight"
@@ -23,8 +23,13 @@ const Hero = () => {
         />
       </div>
       <GridBackground />
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+      <div className="flex justify-center relative mb-20 z-10">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[70vw] flex flex-col items-center justify-center">
+          <img
+            src="/priyaverse-logo.png"
+            alt="priyaverse-logo"
+            className=" w-32 m-8"
+          />
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             CRAFTING PIXELS WITH PURPOSE
           </p>

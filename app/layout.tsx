@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Priya's Portfolio",
-  description: "A showcase of my projects, skills, and experience as a software developer.",
+  title: "PriyaVerse",
+  description:
+    "A showcase of my projects, skills, and experience as a Frontend developer.",
 };
 
 export default function RootLayout({
@@ -30,15 +31,15 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
         </ThemeProvider>
-        </body>
+      </body>
     </html>
   );
 }
