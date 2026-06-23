@@ -71,4 +71,9 @@
   * {
     scroll-behavior: smooth;
   }
+
+  body {
+    background: #000319;
+    color: white;
+  }
 }
